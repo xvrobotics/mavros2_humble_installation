@@ -1,4 +1,4 @@
-# mavros2__install
+# mavros2__ws
 This repository provides a script to install MAVROS for ROS 2 Foxy and Humble. MAVROS is a ROS package that provides communication between ROS and MAVLink-supported autopilots, such as PX4 and ArduPilot.
 
 ## Prerequisites
@@ -17,7 +17,7 @@ Clone this repository to your local machine:
 
 ```
 git clone https://github.com/your-username/mavros2_foxy_installation.git
-cd mavros2_foxy_installation
+cd mavros2_ws
 ```
 
 ### Step 2: Make the Script Executable
