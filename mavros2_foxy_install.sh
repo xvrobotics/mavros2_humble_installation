@@ -9,9 +9,6 @@ sudo apt update
 # Install necessary dependencies
 sudo apt install -y python3-vcstool python3-rosinstall-generator python3-osrf-pycommon python3-colcon-common-extensions python3-rosdep git wget
 
-# Source ROS 2 Foxy setup script
-source /opt/ros/foxy/setup.bash
-
 # Create the workspace
 mkdir -p ~/mavros2_ws/src
 cd ~/mavros2_ws
