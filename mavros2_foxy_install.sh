@@ -16,16 +16,6 @@ source /opt/ros/foxy/setup.bash
 mkdir -p ~/mavros2_ws/src
 cd ~/mavros2_ws
 
-# Install MAVLink
-rosinstall_generator --format repos mavlink | tee /tmp/mavlink.repos
-
-# Install MAVROS: get source (upstream - released)
-rosinstall_generator --format repos --upstream mavros | tee -a /tmp/mavros.repos
-
-# Import repositories
-vcs import src < /tmp/mavlink.repos
-vcs import src < /tmp/mavros.repos
-
 # Install dependencies
 sudo rosdep init || echo "rosdep already initialized"
 rosdep update
