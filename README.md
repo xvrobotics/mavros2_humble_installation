@@ -24,19 +24,16 @@ cd mavros2_ws
 
 Make the installation script executable:
 ```
-chmod +x mavros2_foxy_install.sh
-```
-```
-chmod +x mavros2_humble_install.sh
+chmod +x mavros2_install.sh
 ```
 ### Step 3: Run the Installation Script
-
+Source ROS2 <Distro>
+```
+source /opt/ros/<distro>/setup.bash
+```
 Run the script to install MAVROS:
 ```
-./mavros2_foxy_install.sh
-```
-```
-./mavros2_humble_install.sh
+./mavros2_install.sh
 ```
 This script will perform the following actions:
 
