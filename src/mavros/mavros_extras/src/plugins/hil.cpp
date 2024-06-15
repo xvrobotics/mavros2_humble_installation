@@ -19,7 +19,7 @@
 
 #include <algorithm>
 
-#include "tf2_eigen/tf2_eigen.hpp"
+#include "tf2_eigen/tf2_eigen.h"
 #include "rcpputils/asserts.hpp"
 #include "mavros/mavros_uas.hpp"
 #include "mavros/plugin.hpp"

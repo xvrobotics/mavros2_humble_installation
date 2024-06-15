@@ -1,0 +1,36 @@
+[0.076s] Invoking command in '/home/lowlevel/mavros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavros_msgs
+[0.353s] -- The C compiler identification is GNU 9.4.0
+[0.679s] -- The CXX compiler identification is GNU 9.4.0
+[0.721s] -- Check for working C compiler: /usr/bin/cc
+[1.087s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.093s] -- Detecting C compiler ABI info
+[1.260s] Invoked command in '/home/lowlevel/mavros2_ws/build/mavros_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavros_msgs
+[1.267s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

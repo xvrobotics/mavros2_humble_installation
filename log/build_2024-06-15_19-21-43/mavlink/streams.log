@@ -1,0 +1,649 @@
+[0.088s] Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavlink
+[0.795s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[0.796s] -- Python 3 iterpretator: /usr/bin/python3.9
+[0.914s] -- Package version: 2024.3.3
+[0.916s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[0.918s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+[0.919s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml
+[0.920s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[0.920s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[0.921s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[0.922s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[0.922s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[0.923s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[0.923s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[0.924s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[0.924s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[0.925s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[0.926s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[0.927s] -- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[0.928s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[0.929s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+[0.929s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml
+[0.930s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[0.932s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[0.932s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[0.933s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[0.933s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[0.933s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[0.934s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[0.934s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[0.935s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[0.935s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[0.935s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[0.935s] -- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[0.941s] -- Configuring done
+[0.998s] -- Generating done
+[1.009s] -- Build files have been written to: /home/lowlevel/mavros2_ws/build/mavlink
+[1.018s] Invoked command in '/home/lowlevel/mavros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavlink
+[1.030s] Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lowlevel/mavros2_ws/build/mavlink -- -j4 -l4
+[1.184s] [35m[1mScanning dependencies of target csAirLink.xml-v1.0[0m
+[1.189s] [35m[1mScanning dependencies of target ualberta.xml-v2.0[0m
+[1.195s] [35m[1mScanning dependencies of target icarous.xml-v1.0[0m
+[1.206s] [35m[1mScanning dependencies of target cubepilot.xml-v2.0[0m
+[1.249s] [  6%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+[1.254s] [  6%] [34m[1mGenerating include/v1.0/csAirLink/csAirLink.h[0m
+[1.255s] [ 10%] [34m[1mGenerating cubepilot-v2.0-cxx-stamp[0m
+[1.279s] [ 13%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+[1.454s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.455s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[1.455s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[1.456s] Found 0 MAVLink message types in 1 XML files
+[1.458s] Generating C implementation in directory include/v1.0/icarous
+[1.464s] Copying fixed headers for protocol 1.0 to include/v1.0
+[1.466s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.466s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[1.467s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[1.470s] Found 0 MAVLink message types in 1 XML files
+[1.470s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.
+[1.471s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[1.471s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.474s] Generating C implementation in directory include/v1.0/csAirLink
+[1.474s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[1.474s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[1.483s] Copying fixed headers for protocol 1.0 to include/v1.0
+[1.545s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.546s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[1.546s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[1.549s] [ 13%] Built target icarous.xml-v1.0
+[1.550s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[1.551s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[1.584s] [ 13%] Built target csAirLink.xml-v1.0
+[1.590s] [35m[1mScanning dependencies of target storm32.xml-v1.0[0m
+[1.638s] [35m[1mScanning dependencies of target uAvionix.xml-v1.0[0m
+[1.685s] [ 16%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
+[1.693s] [ 20%] [34m[1mGenerating include/v1.0/storm32/storm32.h[0m
+[1.868s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[1.869s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[1.869s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[1.870s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[1.925s] Found 224 MAVLink message types in 4 XML files
+[1.934s] Generating C headers
+[1.944s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[1.944s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[1.945s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[1.945s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[1.946s] Generating C implementation in directory include/v2.0/ualberta
+[1.959s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.960s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[1.960s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[1.965s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[1.965s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[1.976s] Generating C implementation in directory include/v2.0/common
+[1.984s] Found 226 MAVLink message types in 4 XML files
+[1.993s] Generating C headers
+[1.994s] Generating C implementation in directory include/v2.0/cubepilot
+[2.007s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.
+[2.008s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[2.008s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[2.016s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.
+[2.017s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[2.037s] Generating C implementation in directory include/v2.0/common
+[2.087s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[2.088s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[2.430s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[2.431s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[2.431s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[2.432s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[2.449s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[2.450s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[2.462s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[2.462s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[2.465s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[2.465s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[2.467s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[2.467s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[2.470s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[2.470s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[2.471s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[2.471s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[2.495s] Merged enum MAV_CMD
+[2.496s] Merged enum MAV_CMD
+[2.519s] Found 190 MAVLink message types in 9 XML files
+[2.521s] Found 142 MAVLink message types in 4 XML files
+[2.523s] Generating C implementation in directory include/v1.0/uAvionix
+[2.524s] Generating C implementation in directory include/v1.0/storm32
+[2.548s] Generating C implementation in directory include/v1.0/common
+[2.565s] Generating C implementation in directory include/v1.0/ardupilotmega
+[2.919s] Generating C implementation in directory include/v1.0/common
+[3.864s] Generating C implementation in directory include/v1.0/standard
+[3.867s] Generating C implementation in directory include/v1.0/minimal
+[3.898s] Copying fixed headers for protocol 1.0 to include/v1.0
+[4.050s] Generating C implementation in directory include/v2.0/standard
+[4.051s] Generating C implementation in directory include/v1.0/uAvionix
+[4.058s] Generating C implementation in directory include/v2.0/minimal
+[4.059s] Generating C implementation in directory include/v1.0/icarous
+[4.064s] Generating C implementation in directory include/v1.0/cubepilot
+[4.070s] [ 20%] Built target uAvionix.xml-v1.0
+[4.071s] Generating C implementation in directory include/v1.0/csAirLink
+[4.076s] Generating C implementation in directory include/v1.0/standard
+[4.078s] Copying fixed headers for protocol 2.0 to include/v2.0
+[4.082s] Generating C implementation in directory include/v1.0/minimal
+[4.084s] Generating C++ implementation in directory include/v2.0/ualberta
+[4.091s] Generating C++ implementation in directory include/v2.0/common
+[4.104s] Copying fixed headers for protocol 1.0 to include/v1.0
+[4.175s] [35m[1mScanning dependencies of target ualberta.xml-v1.0[0m
+[4.231s] [ 20%] Built target storm32.xml-v1.0
+[4.257s] Generating C implementation in directory include/v2.0/standard
+[4.259s] Generating C implementation in directory include/v2.0/minimal
+[4.280s] Copying fixed headers for protocol 2.0 to include/v2.0
+[4.284s] Generating C++ implementation in directory include/v2.0/cubepilot
+[4.292s] Generating C++ implementation in directory include/v2.0/common
+[4.295s] [ 23%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
+[4.301s] [35m[1mScanning dependencies of target paparazzi.xml-v2.0[0m
+[4.403s] [ 26%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+[4.502s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.
+[4.503s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[4.503s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[4.509s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[4.510s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[4.542s] Generating C++ implementation in directory include/v2.0/standard
+[4.543s] Generating C++ implementation in directory include/v2.0/minimal
+[4.571s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[4.647s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml.
+[4.647s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[4.648s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[4.650s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[4.651s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[4.724s] Generating C++ implementation in directory include/v2.0/standard
+[4.725s] Generating C++ implementation in directory include/v2.0/minimal
+[4.738s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[4.780s] [ 26%] Built target ualberta.xml-v2.0
+[4.833s] [35m[1mScanning dependencies of target paparazzi.xml-v1.0[0m
+[4.863s] [ 26%] Built target cubepilot.xml-v2.0
+[4.905s] [ 30%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
+[4.907s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[4.908s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[4.909s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[4.909s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[4.940s] Found 145 MAVLink message types in 4 XML files
+[4.943s] Generating C implementation in directory include/v1.0/ualberta
+[4.961s] Generating C implementation in directory include/v1.0/common
+[4.976s] [35m[1mScanning dependencies of target standard.xml-v1.0[0m
+[5.078s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[5.079s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[5.080s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[5.080s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[5.092s] [ 33%] Built target standard.xml-v1.0
+[5.119s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[5.120s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml.
+[5.120s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+[5.123s] Found 226 MAVLink message types in 4 XML files
+[5.135s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[5.136s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[5.138s] Generating C headers
+[5.139s] Generating C implementation in directory include/v2.0/paparazzi
+[5.182s] [35m[1mScanning dependencies of target cubepilot.xml-v1.0[0m
+[5.187s] Generating C implementation in directory include/v2.0/common
+[5.249s] [ 36%] Built target cubepilot.xml-v1.0
+[5.300s] [35m[1mScanning dependencies of target uAvionix.xml-v2.0[0m
+[5.344s] [ 40%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+[5.430s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[5.430s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[5.432s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[5.432s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[5.469s] Found 147 MAVLink message types in 4 XML files
+[5.472s] Generating C implementation in directory include/v1.0/paparazzi
+[5.493s] Generating C implementation in directory include/v1.0/common
+[5.547s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[5.547s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[5.548s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[5.554s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[5.555s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[5.945s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[5.946s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[5.948s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[5.948s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[5.993s] Found 224 MAVLink message types in 4 XML files
+[6.002s] Generating C headers
+[6.004s] Generating C implementation in directory include/v2.0/uAvionix
+[6.030s] Generating C implementation in directory include/v2.0/common
+[6.042s] Generating C implementation in directory include/v1.0/standard
+[6.047s] Generating C implementation in directory include/v1.0/minimal
+[6.062s] Copying fixed headers for protocol 1.0 to include/v1.0
+[6.182s] [ 40%] Built target ualberta.xml-v1.0
+[6.300s] [35m[1mScanning dependencies of target all.xml-v1.0[0m
+[6.427s] [ 43%] [34m[1mGenerating include/v1.0/all/all.h[0m
+[6.504s] Generating C implementation in directory include/v1.0/standard
+[6.508s] Generating C implementation in directory include/v1.0/minimal
+[6.523s] Copying fixed headers for protocol 1.0 to include/v1.0
+[6.664s] [ 43%] Built target paparazzi.xml-v1.0
+[6.791s] [35m[1mScanning dependencies of target ardupilotmega.xml-v1.0[0m
+[6.801s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[6.802s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml.
+[6.803s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml
+[6.805s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.
+[6.806s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[6.887s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.
+[6.888s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[6.900s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[6.904s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[6.930s] [ 46%] Built target ardupilotmega.xml-v1.0
+[7.038s] [35m[1mScanning dependencies of target all.xml-v2.0[0m
+[7.095s] Generating C implementation in directory include/v2.0/standard
+[7.096s] Generating C implementation in directory include/v2.0/minimal
+[7.117s] Copying fixed headers for protocol 2.0 to include/v2.0
+[7.124s] Generating C++ implementation in directory include/v2.0/paparazzi
+[7.134s] Generating C++ implementation in directory include/v2.0/common
+[7.148s] [ 50%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+[7.371s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[7.383s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml.
+[7.384s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml
+[7.384s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.
+[7.385s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[7.404s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.
+[7.404s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[7.415s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[7.415s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[7.417s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[7.417s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[7.434s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml.
+[7.434s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+[7.436s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[7.436s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[7.436s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml.
+[7.437s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml
+[7.438s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.
+[7.438s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[7.441s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[7.441s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[7.445s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.
+[7.445s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[7.454s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.
+[7.454s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+[7.458s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[7.458s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[7.459s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[7.459s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[7.462s] Merged enum MAV_CMD
+[7.462s] Merged enum MAV_CMD
+[7.463s] Merged enum MAV_CMD
+[7.463s] Merged enum MAV_CMD
+[7.463s] Merged enum MAV_CMD
+[7.471s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.
+[7.472s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[7.486s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[7.486s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[7.490s] Found 196 MAVLink message types in 16 XML files
+[7.492s] Generating C implementation in directory include/v1.0/all
+[7.497s] Generating C implementation in directory include/v1.0/ardupilotmega
+[7.712s] Generating C implementation in directory include/v1.0/ASLUAV
+[7.729s] Generating C implementation in directory include/v1.0/common
+[7.743s] Generating C++ implementation in directory include/v2.0/standard
+[7.753s] Generating C implementation in directory include/v2.0/standard
+[7.756s] Generating C++ implementation in directory include/v2.0/minimal
+[7.759s] Generating C implementation in directory include/v2.0/minimal
+[7.784s] Copying fixed headers for protocol 2.0 to include/v2.0
+[7.790s] Generating C++ implementation in directory include/v2.0/uAvionix
+[7.791s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[7.802s] Generating C++ implementation in directory include/v2.0/common
+[7.926s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.
+[7.926s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[7.944s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[7.945s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[7.947s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[7.948s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[7.955s] [ 50%] Built target paparazzi.xml-v2.0
+[7.971s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml.
+[7.973s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+[7.979s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[7.979s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[7.980s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml.
+[7.980s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml
+[7.981s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.
+[7.981s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+[7.985s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[7.985s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[7.991s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.
+[7.991s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[8.019s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.
+[8.020s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+[8.033s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[8.035s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[8.041s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[8.041s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[8.054s] Merged enum MAV_CMD
+[8.055s] Merged enum MAV_CMD
+[8.055s] Merged enum MAV_CMD
+[8.059s] Merged enum MAV_CMD
+[8.060s] Merged enum MAV_CMD
+[8.074s] [35m[1mScanning dependencies of target icarous.xml-v2.0[0m
+[8.097s] Found 360 MAVLink message types in 16 XML files
+[8.106s] Generating C headers
+[8.108s] Generating C implementation in directory include/v2.0/all
+[8.117s] Generating C implementation in directory include/v2.0/ardupilotmega
+[8.189s] [ 53%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+[8.279s] Generating C++ implementation in directory include/v2.0/standard
+[8.282s] Generating C++ implementation in directory include/v2.0/minimal
+[8.293s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[8.429s] [ 53%] Built target uAvionix.xml-v2.0
+[8.464s] Generating C implementation in directory include/v2.0/ASLUAV
+[8.515s] [35m[1mScanning dependencies of target storm32.xml-v2.0[0m
+[8.523s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[8.524s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[8.524s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[8.530s] Found 2 MAVLink message types in 1 XML files
+[8.546s] Generating C headers
+[8.548s] Generating C implementation in directory include/v2.0/icarous
+[8.563s] Copying fixed headers for protocol 2.0 to include/v2.0
+[8.566s] Generating C implementation in directory include/v2.0/common
+[8.574s] Generating C++ implementation in directory include/v2.0/icarous
+[8.580s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[8.627s] [ 56%] [34m[1mGenerating storm32-v2.0-cxx-stamp[0m
+[8.635s] Generating C implementation in directory include/v1.0/development
+[8.646s] Generating C implementation in directory include/v1.0/icarous
+[8.650s] Generating C implementation in directory include/v1.0/minimal
+[8.666s] [ 56%] Built target icarous.xml-v2.0
+[8.684s] Generating C implementation in directory include/v1.0/python_array_test
+[8.701s] Generating C implementation in directory include/v1.0/standard
+[8.704s] Generating C implementation in directory include/v1.0/test
+[8.707s] Generating C implementation in directory include/v1.0/ualberta
+[8.715s] [35m[1mScanning dependencies of target development.xml-v1.0[0m
+[8.737s] Generating C implementation in directory include/v1.0/uAvionix
+[8.742s] Generating C implementation in directory include/v1.0/storm32
+[8.750s] Generating C implementation in directory include/v1.0/AVSSUAS
+[8.755s] Generating C implementation in directory include/v1.0/cubepilot
+[8.760s] Generating C implementation in directory include/v1.0/csAirLink
+[8.764s] Copying fixed headers for protocol 1.0 to include/v1.0
+[8.817s] [ 60%] Built target development.xml-v1.0
+[8.856s] [ 60%] Built target all.xml-v1.0
+[8.900s] [35m[1mScanning dependencies of target AVSSUAS.xml-v2.0[0m
+[8.915s] [35m[1mScanning dependencies of target ASLUAV.xml-v1.0[0m
+[8.922s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[8.924s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.
+[8.926s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+[8.944s] [ 63%] [34m[1mGenerating AVSSUAS-v2.0-cxx-stamp[0m
+[8.945s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.
+[8.945s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[9.015s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[9.015s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[9.050s] [ 66%] Built target ASLUAV.xml-v1.0
+[9.130s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[9.131s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.
+[9.131s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+[9.136s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[9.137s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[9.179s] [35m[1mScanning dependencies of target standard.xml-v2.0[0m
+[9.319s] [ 70%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+[9.342s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[9.343s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[9.349s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[9.349s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[9.351s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[9.351s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[9.357s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[9.357s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[9.360s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[9.360s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[9.362s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[9.362s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[9.378s] Merged enum MAV_CMD
+[9.378s] Merged enum MAV_CMD
+[9.400s] Found 312 MAVLink message types in 9 XML files
+[9.409s] Generating C headers
+[9.410s] Generating C implementation in directory include/v2.0/storm32
+[9.478s] Generating C implementation in directory include/v2.0/ardupilotmega
+[9.488s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[9.488s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[9.489s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[9.490s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[9.504s] Merged enum MAV_CMD
+[9.524s] Found 225 MAVLink message types in 4 XML files
+[9.530s] Generating C headers
+[9.531s] Generating C implementation in directory include/v2.0/AVSSUAS
+[9.564s] Generating C implementation in directory include/v2.0/common
+[9.634s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[9.634s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[9.634s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[9.635s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[9.635s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[9.679s] Found 2 MAVLink message types in 2 XML files
+[9.685s] Generating C headers
+[9.686s] Generating C implementation in directory include/v2.0/standard
+[9.696s] Generating C implementation in directory include/v2.0/minimal
+[9.733s] Copying fixed headers for protocol 2.0 to include/v2.0
+[9.738s] Generating C++ implementation in directory include/v2.0/standard
+[9.750s] Generating C++ implementation in directory include/v2.0/minimal
+[9.760s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[9.933s] Generating C implementation in directory include/v2.0/common
+[9.939s] [ 70%] Built target standard.xml-v2.0
+[10.017s] [35m[1mScanning dependencies of target common.xml-v1.0[0m
+[10.131s] Generating C implementation in directory include/v2.0/development
+[10.146s] [ 73%] Built target common.xml-v1.0
+[10.220s] Generating C implementation in directory include/v2.0/icarous
+[10.241s] [35m[1mScanning dependencies of target ardupilotmega.xml-v2.0[0m
+[10.245s] Generating C implementation in directory include/v2.0/minimal
+[10.268s] Generating C implementation in directory include/v2.0/python_array_test
+[10.297s] Generating C implementation in directory include/v2.0/standard
+[10.299s] Generating C implementation in directory include/v2.0/test
+[10.311s] Generating C implementation in directory include/v2.0/ualberta
+[10.328s] Generating C implementation in directory include/v2.0/uAvionix
+[10.346s] Generating C implementation in directory include/v2.0/storm32
+[10.355s] [ 76%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+[10.397s] Generating C implementation in directory include/v2.0/AVSSUAS
+[10.418s] Generating C implementation in directory include/v2.0/cubepilot
+[10.435s] Generating C implementation in directory include/v2.0/csAirLink
+[10.450s] Copying fixed headers for protocol 2.0 to include/v2.0
+[10.454s] Generating C++ implementation in directory include/v2.0/all
+[10.456s] Generating C++ implementation in directory include/v2.0/ardupilotmega
+[10.580s] Generating C++ implementation in directory include/v2.0/ASLUAV
+[10.605s] Generating C++ implementation in directory include/v2.0/common
+[10.638s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[10.639s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.
+[10.639s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[10.754s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[10.755s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[10.955s] Generating C++ implementation in directory include/v2.0/development
+[10.973s] Generating C++ implementation in directory include/v2.0/icarous
+[10.977s] Generating C++ implementation in directory include/v2.0/minimal
+[10.997s] Generating C++ implementation in directory include/v2.0/python_array_test
+[11.006s] Generating C++ implementation in directory include/v2.0/standard
+[11.006s] Generating C++ implementation in directory include/v2.0/test
+[11.009s] Generating C++ implementation in directory include/v2.0/ualberta
+[11.016s] Generating C++ implementation in directory include/v2.0/uAvionix
+[11.023s] Generating C++ implementation in directory include/v2.0/storm32
+[11.039s] Generating C++ implementation in directory include/v2.0/AVSSUAS
+[11.046s] Generating C++ implementation in directory include/v2.0/cubepilot
+[11.052s] Generating C++ implementation in directory include/v2.0/csAirLink
+[11.058s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.
+[11.058s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+[11.059s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[11.080s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.
+[11.080s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+[11.083s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.
+[11.083s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[11.085s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[11.086s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[11.088s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[11.088s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[11.090s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[11.091s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[11.117s] Merged enum MAV_CMD
+[11.129s] Generating C implementation in directory include/v2.0/standard
+[11.131s] Generating C implementation in directory include/v2.0/minimal
+[11.143s] Found 302 MAVLink message types in 8 XML files
+[11.149s] Copying fixed headers for protocol 2.0 to include/v2.0
+[11.150s] Generating C headers
+[11.151s] Generating C implementation in directory include/v2.0/ardupilotmega
+[11.153s] Generating C++ implementation in directory include/v2.0/AVSSUAS
+[11.175s] Generating C++ implementation in directory include/v2.0/common
+[11.204s] [ 76%] Built target all.xml-v2.0
+[11.309s] [35m[1mScanning dependencies of target ASLUAV.xml-v2.0[0m
+[11.359s] Generating C implementation in directory include/v2.0/uAvionix
+[11.378s] Generating C implementation in directory include/v2.0/icarous
+[11.391s] Generating C implementation in directory include/v2.0/cubepilot
+[11.412s] Generating C implementation in directory include/v2.0/csAirLink
+[11.428s] Generating C implementation in directory include/v2.0/standard
+[11.430s] Generating C implementation in directory include/v2.0/minimal
+[11.432s] [ 80%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+[11.447s] Copying fixed headers for protocol 2.0 to include/v2.0
+[11.451s] Generating C++ implementation in directory include/v2.0/storm32
+[11.494s] Generating C implementation in directory include/v2.0/common
+[11.501s] Generating C++ implementation in directory include/v2.0/ardupilotmega
+[11.525s] Generating C++ implementation in directory include/v2.0/standard
+[11.526s] Generating C++ implementation in directory include/v2.0/minimal
+[11.537s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[11.624s] [ 80%] Built target AVSSUAS.xml-v2.0
+[11.656s] Generating C++ implementation in directory include/v2.0/common
+[11.715s] [35m[1mScanning dependencies of target csAirLink.xml-v2.0[0m
+[11.745s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[11.745s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.
+[11.745s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+[11.762s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[11.763s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[11.817s] [ 83%] [34m[1mGenerating csAirLink-v2.0-cxx-stamp[0m
+[12.050s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[12.052s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.
+[12.052s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+[12.053s] Found 6 MAVLink message types in 1 XML files
+[12.060s] Generating C headers
+[12.061s] Generating C implementation in directory include/v2.0/csAirLink
+[12.071s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[12.072s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[12.074s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[12.074s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[12.080s] Copying fixed headers for protocol 2.0 to include/v2.0
+[12.086s] Generating C++ implementation in directory include/v2.0/csAirLink
+[12.094s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[12.118s] Generating C++ implementation in directory include/v2.0/uAvionix
+[12.127s] Merged enum MAV_CMD
+[12.141s] Generating C++ implementation in directory include/v2.0/icarous
+[12.145s] Generating C++ implementation in directory include/v2.0/cubepilot
+[12.150s] Found 238 MAVLink message types in 4 XML files
+[12.161s] [ 83%] Built target csAirLink.xml-v2.0
+[12.162s] Generating C headers
+[12.164s] Generating C implementation in directory include/v2.0/ASLUAV
+[12.168s] Generating C++ implementation in directory include/v2.0/csAirLink
+[12.174s] Generating C++ implementation in directory include/v2.0/standard
+[12.175s] Generating C++ implementation in directory include/v2.0/minimal
+[12.192s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[12.253s] [35m[1mScanning dependencies of target matrixpilot.xml-v1.0[0m
+[12.293s] [ 83%] Built target storm32.xml-v2.0
+[12.335s] [ 86%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+[12.337s] Generating C implementation in directory include/v2.0/common
+[12.387s] [35m[1mScanning dependencies of target AVSSUAS.xml-v1.0[0m
+[12.487s] [ 90%] Built target AVSSUAS.xml-v1.0
+[12.563s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[12.563s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml.
+[12.563s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[12.587s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[12.588s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[12.614s] [35m[1mScanning dependencies of target development.xml-v2.0[0m
+[12.726s] [ 93%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
+[12.754s] Generating C implementation in directory include/v2.0/uAvionix
+[12.774s] Generating C implementation in directory include/v2.0/icarous
+[12.790s] Generating C implementation in directory include/v2.0/cubepilot
+[12.834s] Generating C implementation in directory include/v2.0/csAirLink
+[12.863s] Generating C implementation in directory include/v2.0/standard
+[12.865s] Generating C implementation in directory include/v2.0/minimal
+[12.899s] Copying fixed headers for protocol 2.0 to include/v2.0
+[12.905s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[12.906s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[12.906s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[12.907s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[12.915s] Generating C++ implementation in directory include/v2.0/ardupilotmega
+[12.921s] Merged enum MAV_CMD
+[12.926s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[12.927s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.
+[12.927s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[12.937s] Found 169 MAVLink message types in 4 XML files
+[12.938s] Generating C implementation in directory include/v1.0/matrixpilot
+[12.945s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[12.946s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[13.027s] Generating C++ implementation in directory include/v2.0/common
+[13.080s] Generating C implementation in directory include/v1.0/common
+[13.272s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[13.273s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[13.275s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[13.276s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[13.303s] Merged enum MAV_CMD
+[13.322s] Found 236 MAVLink message types in 4 XML files
+[13.341s] Generating C headers
+[13.341s] Generating C implementation in directory include/v2.0/development
+[13.416s] Generating C++ implementation in directory include/v2.0/uAvionix
+[13.431s] Generating C++ implementation in directory include/v2.0/icarous
+[13.435s] Generating C++ implementation in directory include/v2.0/cubepilot
+[13.451s] Generating C++ implementation in directory include/v2.0/csAirLink
+[13.458s] Generating C++ implementation in directory include/v2.0/standard
+[13.459s] Generating C++ implementation in directory include/v2.0/minimal
+[13.466s] Generating C implementation in directory include/v2.0/common
+[13.490s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[13.659s] [ 93%] Built target ardupilotmega.xml-v2.0
+[13.703s] Generating C implementation in directory include/v2.0/standard
+[13.705s] Generating C implementation in directory include/v2.0/minimal
+[13.721s] Copying fixed headers for protocol 2.0 to include/v2.0
+[13.725s] Generating C++ implementation in directory include/v2.0/ASLUAV
+[13.763s] Generating C++ implementation in directory include/v2.0/common
+[13.775s] [35m[1mScanning dependencies of target matrixpilot.xml-v2.0[0m
+[13.897s] [ 96%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+[13.903s] Generating C implementation in directory include/v1.0/standard
+[13.907s] Generating C implementation in directory include/v1.0/minimal
+[13.922s] Copying fixed headers for protocol 1.0 to include/v1.0
+[14.051s] [ 96%] Built target matrixpilot.xml-v1.0
+[14.128s] Generating C++ implementation in directory include/v2.0/standard
+[14.130s] Generating C++ implementation in directory include/v2.0/minimal
+[14.133s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[14.133s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml.
+[14.134s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[14.139s] Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[14.156s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[14.157s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[14.221s] [ 96%] Built target ASLUAV.xml-v2.0
+[14.406s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.
+[14.406s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml
+[14.407s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.
+[14.407s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[14.424s] Merged enum MAV_CMD
+[14.443s] Traceback (most recent call last):
+[14.444s] Traceback (most recent call last):
+[14.444s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+[14.445s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+[14.446s]     mavgen.mavgen(args, args.definitions)
+[14.447s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 297, in mavgen
+[14.448s]     mavgen.mavgen(args, args.definitions)
+[14.448s]     mavgen_cpp11.generate(opts.output, xml)
+[14.448s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_cpp11.py", line 458, in generate
+[14.449s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 243, in mavgen
+[14.449s]     mavgen_c.generate(basename, xml_list)
+[14.459s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 717, in generate
+[14.461s]     if not expand_includes():
+[14.462s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 119, in expand_includes
+[14.463s]     if mavparse.check_duplicates(xml):
+[14.463s] KeyboardInterrupt
+[14.463s]     generate_one(basename, xml)
+[14.464s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 707, in generate_one
+[14.465s]     generate_message_h(directory, m)
+[14.465s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 171, in generate_message_h
+[14.465s]     t.write(f, '''
+[14.466s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 133, in write
+[14.466s]     file.write(self.substitute(text, subvars=subvars, trim_leading_lf=trim_leading_lf))
+[14.467s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 95, in substitute
+[14.475s]     t1 += self.substitute(rest, f, trim_leading_lf=False, checkmissing=False)
+[14.477s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 128, in substitute
+[14.477s]     text = text.replace("%s%s%s" % (self.start_var_token, varname, self.end_var_token), str(value))
+[14.477s] KeyboardInterrupt
+[14.491s] make[2]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:63: matrixpilot-v2.0-cxx-stamp] Interrupt
+[14.492s] make[1]: *** [CMakeFiles/Makefile2:930: CMakeFiles/matrixpilot.xml-v2.0.dir/all] Interrupt
+[14.492s] make[2]: *** [CMakeFiles/development.xml-v2.0.dir/build.make:63: development-v2.0-cxx-stamp] Interrupt
+[14.492s] make[1]: *** [CMakeFiles/Makefile2:903: CMakeFiles/development.xml-v2.0.dir/all] Interrupt
+[14.493s] make: *** [Makefile:118: all] Interrupt

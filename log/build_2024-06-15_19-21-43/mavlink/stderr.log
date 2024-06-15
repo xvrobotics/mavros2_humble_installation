@@ -1,0 +1,55 @@
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+    mavgen.mavgen(args, args.definitions)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 297, in mavgen
+    mavgen.mavgen(args, args.definitions)
+    mavgen_cpp11.generate(opts.output, xml)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_cpp11.py", line 458, in generate
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 243, in mavgen
+    mavgen_c.generate(basename, xml_list)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 717, in generate
+    if not expand_includes():
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 119, in expand_includes
+    if mavparse.check_duplicates(xml):
+KeyboardInterrupt
+    generate_one(basename, xml)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 707, in generate_one
+    generate_message_h(directory, m)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 171, in generate_message_h
+    t.write(f, '''
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 133, in write
+    file.write(self.substitute(text, subvars=subvars, trim_leading_lf=trim_leading_lf))
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 95, in substitute
+    t1 += self.substitute(rest, f, trim_leading_lf=False, checkmissing=False)
+  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 128, in substitute
+    text = text.replace("%s%s%s" % (self.start_var_token, varname, self.end_var_token), str(value))
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:63: matrixpilot-v2.0-cxx-stamp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:930: CMakeFiles/matrixpilot.xml-v2.0.dir/all] Interrupt
+make[2]: *** [CMakeFiles/development.xml-v2.0.dir/build.make:63: development-v2.0-cxx-stamp] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:903: CMakeFiles/development.xml-v2.0.dir/all] Interrupt
+make: *** [Makefile:118: all] Interrupt

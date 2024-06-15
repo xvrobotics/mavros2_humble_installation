@@ -26,12 +26,22 @@ fi
 # Install necessary dependencies
 sudo apt install -y python3-vcstool python3-rosinstall-generator python3-osrf-pycommon python3-colcon-common-extensions python3-rosdep git wget
 
-source /opt/ros/humble/setup.bash
+if [ -d "/opt/ros/foxy/" ]; then
+  source /opt/ros/foxy/setup.bash
+  sudo apt install ros-foxy-mavros
+fi
 
-cd ~/mavros2_ws
+if [ -d "/opt/ros/humble/" ]; then
+  source /opt/ros/humble/setup.bash
+  sudo apt install ros-humble-mavros
+fi
+ros2 run mavros install_geographiclib_datasets.sh
 
-# Install GeographicLib datasets
-sudo ./src/mavros/mavros/scripts/install_geographiclib_datasets.sh
+# Alternative:
+wget https://raw.githubusercontent.com/mavlink/mavros/ros2/mavros/scripts/install_geographiclib_datasets.sh
+
+chmod +x ./install_geographiclib_datasets.sh 
+sudo ./install_geographiclib_datasets.sh 
 
 # Build the workspace
 colcon build

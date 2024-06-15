@@ -1,0 +1,843 @@
+[0.000000] (-) TimerEvent: {}
+[0.000734] (mavlink) JobQueued: {'identifier': 'mavlink', 'dependencies': OrderedDict()}
+[0.000896] (mavros_msgs) JobQueued: {'identifier': 'mavros_msgs', 'dependencies': OrderedDict()}
+[0.000988] (libmavconn) JobQueued: {'identifier': 'libmavconn', 'dependencies': OrderedDict([('mavlink', '/home/lowlevel/mavros2_ws/install/mavlink')])}
+[0.001095] (mavros) JobQueued: {'identifier': 'mavros', 'dependencies': OrderedDict([('mavlink', '/home/lowlevel/mavros2_ws/install/mavlink'), ('mavros_msgs', '/home/lowlevel/mavros2_ws/install/mavros_msgs'), ('libmavconn', '/home/lowlevel/mavros2_ws/install/libmavconn')])}
+[0.001195] (mavros_extras) JobQueued: {'identifier': 'mavros_extras', 'dependencies': OrderedDict([('mavlink', '/home/lowlevel/mavros2_ws/install/mavlink'), ('mavros_msgs', '/home/lowlevel/mavros2_ws/install/mavros_msgs'), ('libmavconn', '/home/lowlevel/mavros2_ws/install/libmavconn'), ('mavros', '/home/lowlevel/mavros2_ws/install/mavros')])}
+[0.002897] (mavlink) JobStarted: {'identifier': 'mavlink'}
+[0.033805] (mavros_msgs) JobStarted: {'identifier': 'mavros_msgs'}
+[0.071750] (mavlink) JobProgress: {'identifier': 'mavlink', 'progress': 'cmake'}
+[0.075249] (mavlink) Command: {'cmd': ['/usr/bin/cmake', '/home/lowlevel/mavros2_ws/src/mavlink', '-DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavlink'], 'cwd': '/home/lowlevel/mavros2_ws/build/mavlink', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './mavros2_install.sh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'lowlevel'), ('PWD', '/home/lowlevel/mavros2_ws/build/mavlink'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099090] (-) TimerEvent: {}
+[0.100864] (mavros_msgs) JobProgress: {'identifier': 'mavros_msgs', 'progress': 'cmake'}
+[0.102386] (mavros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/lowlevel/mavros2_ws/src/mavros/mavros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavros_msgs'], 'cwd': '/home/lowlevel/mavros2_ws/build/mavros_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './mavros2_install.sh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'lowlevel'), ('PWD', '/home/lowlevel/mavros2_ws/build/mavros_msgs'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199503] (-) TimerEvent: {}
+[0.301189] (-) TimerEvent: {}
+[0.377430] (mavros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401458] (-) TimerEvent: {}
+[0.503146] (-) TimerEvent: {}
+[0.604389] (-) TimerEvent: {}
+[0.616388] (mavros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.634476] (mavros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.704683] (-) TimerEvent: {}
+[0.797123] (mavlink) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[0.798683] (mavlink) StdoutLine: {'line': b'-- Python 3 iterpretator: /usr/bin/python3.9\n'}
+[0.804899] (-) TimerEvent: {}
+[0.906036] (-) TimerEvent: {}
+[0.916777] (mavlink) StdoutLine: {'line': b'-- Package version: 2024.3.3\n'}
+[0.919224] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml\n'}
+[0.920765] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml\n'}
+[0.921802] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml\n'}
+[0.922360] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[0.923292] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[0.924276] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[0.924765] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[0.925346] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml\n'}
+[0.926138] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[0.926435] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml\n'}
+[0.926869] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml\n'}
+[0.927412] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[0.927980] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[0.928735] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[0.929416] (mavlink) StdoutLine: {'line': b'-- processing v1.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[0.930527] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml\n'}
+[0.931415] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml\n'}
+[0.932087] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml\n'}
+[0.932771] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[0.933734] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[0.935297] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[0.935746] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[0.936176] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml\n'}
+[0.936576] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[0.936858] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml\n'}
+[0.937162] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml\n'}
+[0.937774] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[0.938069] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[0.938333] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[0.938631] (mavlink) StdoutLine: {'line': b'-- processing v2.0: /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[0.938964] (mavros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.942743] (mavros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.943664] (mavlink) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001308] (mavlink) StdoutLine: {'line': b'-- Generating done\n'}
+[1.006193] (-) TimerEvent: {}
+[1.011769] (mavlink) StdoutLine: {'line': b'-- Build files have been written to: /home/lowlevel/mavros2_ws/build/mavlink\n'}
+[1.020438] (mavlink) CommandEnded: {'returncode': 0}
+[1.022679] (mavlink) JobProgress: {'identifier': 'mavlink', 'progress': 'build'}
+[1.026926] (mavlink) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lowlevel/mavros2_ws/build/mavlink', '--', '-j4', '-l4'], 'cwd': '/home/lowlevel/mavros2_ws/build/mavlink', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './mavros2_install.sh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'lowlevel'), ('PWD', '/home/lowlevel/mavros2_ws/build/mavlink'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.106683] (-) TimerEvent: {}
+[1.187090] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target csAirLink.xml-v1.0\x1b[0m\n'}
+[1.191973] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ualberta.xml-v2.0\x1b[0m\n'}
+[1.197339] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target icarous.xml-v1.0\x1b[0m\n'}
+[1.206892] (-) TimerEvent: {}
+[1.209013] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cubepilot.xml-v2.0\x1b[0m\n'}
+[1.241584] (mavros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.252252] (mavlink) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating include/v1.0/icarous/icarous.h\x1b[0m\n'}
+[1.256619] (mavlink) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating include/v1.0/csAirLink/csAirLink.h\x1b[0m\n'}
+[1.258433] (mavlink) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating cubepilot-v2.0-cxx-stamp\x1b[0m\n'}
+[1.282239] (mavlink) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating ualberta-v2.0-cxx-stamp\x1b[0m\n'}
+[1.283286] (mavros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.283938] (mavros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.306016] (mavros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.307033] (-) TimerEvent: {}
+[1.408415] (-) TimerEvent: {}
+[1.457000] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[1.458088] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[1.458425] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[1.459600] (mavlink) StdoutLine: {'line': b'Found 0 MAVLink message types in 1 XML files\n'}
+[1.461554] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/icarous\n'}
+[1.467357] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[1.468905] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[1.469421] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[1.469904] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[1.472936] (mavlink) StdoutLine: {'line': b'Found 0 MAVLink message types in 1 XML files\n'}
+[1.473459] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.\n'}
+[1.473853] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[1.474163] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[1.476438] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/csAirLink\n'}
+[1.477212] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[1.477622] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[1.485603] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[1.508746] (-) TimerEvent: {}
+[1.547670] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[1.548575] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[1.549338] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[1.551690] (mavlink) StdoutLine: {'line': b'[ 13%] Built target icarous.xml-v1.0\n'}
+[1.553316] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[1.554158] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[1.587308] (mavlink) StdoutLine: {'line': b'[ 13%] Built target csAirLink.xml-v1.0\n'}
+[1.593237] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target storm32.xml-v1.0\x1b[0m\n'}
+[1.609019] (-) TimerEvent: {}
+[1.640889] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uAvionix.xml-v1.0\x1b[0m\n'}
+[1.688027] (mavlink) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating include/v1.0/uAvionix/uAvionix.h\x1b[0m\n'}
+[1.696393] (mavlink) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating include/v1.0/storm32/storm32.h\x1b[0m\n'}
+[1.709280] (-) TimerEvent: {}
+[1.810391] (-) TimerEvent: {}
+[1.851236] (mavros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.856338] (mavros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.870990] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[1.871852] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[1.872567] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[1.872877] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[1.910648] (-) TimerEvent: {}
+[1.928173] (mavlink) StdoutLine: {'line': b'Found 224 MAVLink message types in 4 XML files\n'}
+[1.936728] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[1.946648] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[1.947381] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[1.947969] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[1.948294] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[1.949029] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ualberta\n'}
+[1.961882] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[1.962798] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[1.963186] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[1.967711] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[1.968316] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[1.978646] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[1.987338] (mavlink) StdoutLine: {'line': b'Found 226 MAVLink message types in 4 XML files\n'}
+[1.995830] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[1.996672] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/cubepilot\n'}
+[2.010003] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.\n'}
+[2.010634] (-) TimerEvent: {}
+[2.011069] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[2.011372] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[2.019308] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.\n'}
+[2.019891] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[2.040287] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[2.090211] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[2.090897] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[2.110904] (-) TimerEvent: {}
+[2.211818] (-) TimerEvent: {}
+[2.312740] (-) TimerEvent: {}
+[2.413714] (-) TimerEvent: {}
+[2.433122] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[2.434219] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[2.434648] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[2.434936] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[2.451838] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[2.452868] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[2.464241] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[2.465140] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[2.467735] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[2.468598] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[2.469838] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[2.470440] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[2.472587] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[2.473295] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[2.474112] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[2.474613] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[2.491528] (mavros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.497911] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[2.498996] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[2.513924] (-) TimerEvent: {}
+[2.522027] (mavlink) StdoutLine: {'line': b'Found 190 MAVLink message types in 9 XML files\n'}
+[2.523891] (mavlink) StdoutLine: {'line': b'Found 142 MAVLink message types in 4 XML files\n'}
+[2.525608] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/uAvionix\n'}
+[2.527355] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/storm32\n'}
+[2.550779] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[2.566010] (mavros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.567530] (mavros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.568474] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/ardupilotmega\n'}
+[2.588623] (mavros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.614142] (-) TimerEvent: {}
+[2.681859] (mavros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.683959] (mavros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.714387] (-) TimerEvent: {}
+[2.815302] (-) TimerEvent: {}
+[2.916743] (-) TimerEvent: {}
+[2.921759] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[3.016980] (-) TimerEvent: {}
+[3.117980] (-) TimerEvent: {}
+[3.218838] (-) TimerEvent: {}
+[3.319743] (-) TimerEvent: {}
+[3.420616] (-) TimerEvent: {}
+[3.521598] (-) TimerEvent: {}
+[3.622648] (-) TimerEvent: {}
+[3.723718] (-) TimerEvent: {}
+[3.824834] (-) TimerEvent: {}
+[3.867100] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[3.870055] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[3.901194] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[3.908582] (mavros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.919048] (mavros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.924996] (-) TimerEvent: {}
+[3.945780] (mavros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.025273] (-) TimerEvent: {}
+[4.052625] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[4.053854] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/uAvionix\n'}
+[4.060749] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[4.062112] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/icarous\n'}
+[4.067423] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/cubepilot\n'}
+[4.073109] (mavlink) StdoutLine: {'line': b'[ 20%] Built target uAvionix.xml-v1.0\n'}
+[4.074537] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/csAirLink\n'}
+[4.079510] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[4.081115] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[4.084887] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[4.087199] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ualberta\n'}
+[4.094068] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[4.107055] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[4.125686] (-) TimerEvent: {}
+[4.178235] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ualberta.xml-v1.0\x1b[0m\n'}
+[4.225969] (-) TimerEvent: {}
+[4.234392] (mavlink) StdoutLine: {'line': b'[ 20%] Built target storm32.xml-v1.0\n'}
+[4.260041] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[4.262073] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[4.282566] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[4.287361] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/cubepilot\n'}
+[4.294909] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[4.297670] (mavlink) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating include/v1.0/ualberta/ualberta.h\x1b[0m\n'}
+[4.303495] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target paparazzi.xml-v2.0\x1b[0m\n'}
+[4.326216] (-) TimerEvent: {}
+[4.405894] (mavlink) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating paparazzi-v2.0-cxx-stamp\x1b[0m\n'}
+[4.426516] (-) TimerEvent: {}
+[4.504582] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.\n'}
+[4.505646] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[4.506103] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[4.511811] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[4.512736] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[4.526804] (-) TimerEvent: {}
+[4.544709] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[4.545792] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[4.573777] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[4.578464] (mavros_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.627049] (-) TimerEvent: {}
+[4.649832] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml.\n'}
+[4.650509] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml\n'}
+[4.650800] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[4.653272] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[4.653873] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[4.727037] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[4.727734] (-) TimerEvent: {}
+[4.728504] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[4.741084] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[4.752747] (mavros_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.782953] (mavlink) StdoutLine: {'line': b'[ 26%] Built target ualberta.xml-v2.0\n'}
+[4.828016] (-) TimerEvent: {}
+[4.836239] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target paparazzi.xml-v1.0\x1b[0m\n'}
+[4.866035] (mavlink) StdoutLine: {'line': b'[ 26%] Built target cubepilot.xml-v2.0\n'}
+[4.908240] (mavlink) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating include/v1.0/paparazzi/paparazzi.h\x1b[0m\n'}
+[4.909939] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[4.911282] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[4.912343] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[4.912697] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[4.928242] (-) TimerEvent: {}
+[4.943335] (mavlink) StdoutLine: {'line': b'Found 145 MAVLink message types in 4 XML files\n'}
+[4.945645] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/ualberta\n'}
+[4.963973] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[4.979223] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target standard.xml-v1.0\x1b[0m\n'}
+[5.028521] (-) TimerEvent: {}
+[5.081179] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[5.081957] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[5.082732] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[5.083039] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[5.095082] (mavlink) StdoutLine: {'line': b'[ 33%] Built target standard.xml-v1.0\n'}
+[5.122090] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[5.122856] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml.\n'}
+[5.123184] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml\n'}
+[5.126196] (mavlink) StdoutLine: {'line': b'Found 226 MAVLink message types in 4 XML files\n'}
+[5.127636] (mavros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.128599] (-) TimerEvent: {}
+[5.138334] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[5.139281] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[5.141378] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[5.142002] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/paparazzi\n'}
+[5.184768] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cubepilot.xml-v1.0\x1b[0m\n'}
+[5.189888] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[5.228878] (-) TimerEvent: {}
+[5.248023] (mavros_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[5.252352] (mavlink) StdoutLine: {'line': b'[ 36%] Built target cubepilot.xml-v1.0\n'}
+[5.297864] (mavros_msgs) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.0.0 (/opt/ros/foxy/share/rcl_interfaces/cmake)\n'}
+[5.302955] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uAvionix.xml-v2.0\x1b[0m\n'}
+[5.329135] (-) TimerEvent: {}
+[5.347140] (mavlink) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating uAvionix-v2.0-cxx-stamp\x1b[0m\n'}
+[5.356398] (mavros_msgs) StdoutLine: {'line': b'-- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)\n'}
+[5.429442] (-) TimerEvent: {}
+[5.432976] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[5.433643] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[5.434850] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[5.435220] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[5.472312] (mavlink) StdoutLine: {'line': b'Found 147 MAVLink message types in 4 XML files\n'}
+[5.475021] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/paparazzi\n'}
+[5.496236] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[5.529788] (-) TimerEvent: {}
+[5.549974] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[5.550586] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[5.550994] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[5.557256] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[5.557871] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[5.630024] (-) TimerEvent: {}
+[5.730948] (-) TimerEvent: {}
+[5.831992] (-) TimerEvent: {}
+[5.933210] (-) TimerEvent: {}
+[5.948202] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[5.949381] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[5.950737] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[5.951368] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[5.995732] (mavlink) StdoutLine: {'line': b'Found 224 MAVLink message types in 4 XML files\n'}
+[6.004511] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[6.006727] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/uAvionix\n'}
+[6.031110] (mavros_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.032776] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[6.033232] (-) TimerEvent: {}
+[6.045125] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[6.049598] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[6.064491] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[6.133578] (-) TimerEvent: {}
+[6.184416] (mavlink) StdoutLine: {'line': b'[ 40%] Built target ualberta.xml-v1.0\n'}
+[6.233805] (-) TimerEvent: {}
+[6.303010] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target all.xml-v1.0\x1b[0m\n'}
+[6.334048] (-) TimerEvent: {}
+[6.429615] (mavlink) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating include/v1.0/all/all.h\x1b[0m\n'}
+[6.434217] (-) TimerEvent: {}
+[6.490355] (mavros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.506942] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[6.510765] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[6.525955] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[6.534459] (-) TimerEvent: {}
+[6.635970] (-) TimerEvent: {}
+[6.667419] (mavlink) StdoutLine: {'line': b'[ 43%] Built target paparazzi.xml-v1.0\n'}
+[6.736197] (-) TimerEvent: {}
+[6.793518] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ardupilotmega.xml-v1.0\x1b[0m\n'}
+[6.804358] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[6.805434] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml.\n'}
+[6.805904] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml\n'}
+[6.808404] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.\n'}
+[6.809034] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[6.836473] (-) TimerEvent: {}
+[6.890198] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.\n'}
+[6.891256] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml\n'}
+[6.902670] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[6.906914] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[6.932850] (mavlink) StdoutLine: {'line': b'[ 46%] Built target ardupilotmega.xml-v1.0\n'}
+[6.936732] (-) TimerEvent: {}
+[7.038132] (-) TimerEvent: {}
+[7.040984] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target all.xml-v2.0\x1b[0m\n'}
+[7.097390] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[7.099345] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[7.120241] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[7.126518] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/paparazzi\n'}
+[7.137442] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[7.138384] (-) TimerEvent: {}
+[7.150501] (mavlink) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating all-v2.0-cxx-stamp\x1b[0m\n'}
+[7.238741] (-) TimerEvent: {}
+[7.339851] (-) TimerEvent: {}
+[7.374322] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[7.386077] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml.\n'}
+[7.386826] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/all.xml\n'}
+[7.387580] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.\n'}
+[7.388144] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[7.406512] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.\n'}
+[7.407199] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml\n'}
+[7.417974] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[7.418627] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[7.419638] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[7.420035] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[7.437032] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml.\n'}
+[7.437659] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml\n'}
+[7.438739] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[7.439131] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[7.439579] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml.\n'}
+[7.439844] (-) TimerEvent: {}
+[7.440241] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml\n'}
+[7.441245] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.\n'}
+[7.441622] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[7.443674] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[7.444089] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[7.448030] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.\n'}
+[7.448474] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[7.456827] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.\n'}
+[7.457378] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml\n'}
+[7.460964] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[7.461382] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[7.462040] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[7.462386] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[7.464704] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[7.465205] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[7.465577] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[7.466354] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[7.466654] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[7.473578] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.\n'}
+[7.475266] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml\n'}
+[7.488950] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[7.489609] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[7.492644] (mavlink) StdoutLine: {'line': b'Found 196 MAVLink message types in 16 XML files\n'}
+[7.494793] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/all\n'}
+[7.499714] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/ardupilotmega\n'}
+[7.540103] (-) TimerEvent: {}
+[7.640975] (-) TimerEvent: {}
+[7.714905] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/ASLUAV\n'}
+[7.731536] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[7.741289] (-) TimerEvent: {}
+[7.745288] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[7.755739] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[7.758936] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[7.762431] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[7.786525] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[7.793241] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/uAvionix\n'}
+[7.794415] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[7.804814] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[7.841614] (-) TimerEvent: {}
+[7.928494] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.\n'}
+[7.929274] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml\n'}
+[7.941814] (-) TimerEvent: {}
+[7.947355] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[7.948099] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[7.950283] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[7.950740] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[7.957903] (mavlink) StdoutLine: {'line': b'[ 50%] Built target paparazzi.xml-v2.0\n'}
+[7.974162] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml.\n'}
+[7.974895] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml\n'}
+[7.981456] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[7.982267] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[7.983238] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml.\n'}
+[7.983592] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/test.xml\n'}
+[7.984090] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml.\n'}
+[7.984513] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ualberta.xml\n'}
+[7.987693] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[7.988210] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[7.993977] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.\n'}
+[7.994626] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[8.021909] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.\n'}
+[8.022693] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml\n'}
+[8.036209] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[8.037803] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[8.042006] (-) TimerEvent: {}
+[8.043612] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[8.044186] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[8.056730] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[8.057789] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[8.058174] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[8.062093] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[8.062804] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[8.076828] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target icarous.xml-v2.0\x1b[0m\n'}
+[8.099483] (mavlink) StdoutLine: {'line': b'Found 360 MAVLink message types in 16 XML files\n'}
+[8.109318] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[8.110624] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/all\n'}
+[8.119826] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ardupilotmega\n'}
+[8.142237] (-) TimerEvent: {}
+[8.191455] (mavlink) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating icarous-v2.0-cxx-stamp\x1b[0m\n'}
+[8.242450] (-) TimerEvent: {}
+[8.281452] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[8.284676] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[8.295769] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[8.342753] (-) TimerEvent: {}
+[8.431871] (mavlink) StdoutLine: {'line': b'[ 53%] Built target uAvionix.xml-v2.0\n'}
+[8.442988] (-) TimerEvent: {}
+[8.466946] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ASLUAV\n'}
+[8.517987] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target storm32.xml-v2.0\x1b[0m\n'}
+[8.526028] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[8.527040] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[8.527428] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[8.533047] (mavlink) StdoutLine: {'line': b'Found 2 MAVLink message types in 1 XML files\n'}
+[8.543272] (-) TimerEvent: {}
+[8.548528] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[8.550962] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/icarous\n'}
+[8.566218] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[8.569067] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[8.576806] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/icarous\n'}
+[8.582864] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[8.629390] (mavlink) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating storm32-v2.0-cxx-stamp\x1b[0m\n'}
+[8.638183] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/development\n'}
+[8.643469] (-) TimerEvent: {}
+[8.649358] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/icarous\n'}
+[8.652692] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[8.668630] (mavlink) StdoutLine: {'line': b'[ 56%] Built target icarous.xml-v2.0\n'}
+[8.687355] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/python_array_test\n'}
+[8.704199] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[8.707252] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/test\n'}
+[8.710051] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/ualberta\n'}
+[8.717929] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target development.xml-v1.0\x1b[0m\n'}
+[8.739483] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/uAvionix\n'}
+[8.743746] (-) TimerEvent: {}
+[8.744691] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/storm32\n'}
+[8.753139] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/AVSSUAS\n'}
+[8.758051] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/cubepilot\n'}
+[8.762305] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/csAirLink\n'}
+[8.767409] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[8.819861] (mavlink) StdoutLine: {'line': b'[ 60%] Built target development.xml-v1.0\n'}
+[8.843996] (-) TimerEvent: {}
+[8.859357] (mavlink) StdoutLine: {'line': b'[ 60%] Built target all.xml-v1.0\n'}
+[8.903155] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target AVSSUAS.xml-v2.0\x1b[0m\n'}
+[8.917214] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ASLUAV.xml-v1.0\x1b[0m\n'}
+[8.924509] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[8.926848] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml.\n'}
+[8.929335] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/storm32.xml\n'}
+[8.944245] (-) TimerEvent: {}
+[8.946926] (mavlink) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating AVSSUAS-v2.0-cxx-stamp\x1b[0m\n'}
+[8.948160] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.\n'}
+[8.948623] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[9.017892] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[9.018487] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[9.044501] (-) TimerEvent: {}
+[9.052722] (mavlink) StdoutLine: {'line': b'[ 66%] Built target ASLUAV.xml-v1.0\n'}
+[9.133247] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[9.133917] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml.\n'}
+[9.134258] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml\n'}
+[9.139403] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[9.139911] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[9.144737] (-) TimerEvent: {}
+[9.182080] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target standard.xml-v2.0\x1b[0m\n'}
+[9.245297] (-) TimerEvent: {}
+[9.321440] (mavlink) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating standard-v2.0-cxx-stamp\x1b[0m\n'}
+[9.345163] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[9.345795] (-) TimerEvent: {}
+[9.346291] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[9.351665] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[9.352241] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[9.354189] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[9.354638] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[9.359953] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[9.360542] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[9.362988] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[9.363394] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[9.364986] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[9.365338] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[9.380559] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[9.381358] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[9.403340] (mavlink) StdoutLine: {'line': b'Found 312 MAVLink message types in 9 XML files\n'}
+[9.412004] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[9.412853] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/storm32\n'}
+[9.446034] (-) TimerEvent: {}
+[9.480564] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ardupilotmega\n'}
+[9.490516] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[9.491150] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[9.492279] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[9.492771] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[9.507322] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[9.526653] (mavlink) StdoutLine: {'line': b'Found 225 MAVLink message types in 4 XML files\n'}
+[9.532968] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[9.533808] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/AVSSUAS\n'}
+[9.546243] (-) TimerEvent: {}
+[9.567030] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[9.636477] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[9.637153] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[9.637453] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[9.637779] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[9.638048] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[9.646480] (-) TimerEvent: {}
+[9.681590] (mavlink) StdoutLine: {'line': b'Found 2 MAVLink message types in 2 XML files\n'}
+[9.688163] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[9.688956] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[9.698490] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[9.736108] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[9.740023] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[9.746763] (-) TimerEvent: {}
+[9.752656] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[9.762864] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[9.846998] (-) TimerEvent: {}
+[9.935539] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[9.942184] (mavlink) StdoutLine: {'line': b'[ 70%] Built target standard.xml-v2.0\n'}
+[9.947573] (-) TimerEvent: {}
+[10.020292] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target common.xml-v1.0\x1b[0m\n'}
+[10.047904] (-) TimerEvent: {}
+[10.132379] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/development\n'}
+[10.148198] (-) TimerEvent: {}
+[10.149434] (mavlink) StdoutLine: {'line': b'[ 73%] Built target common.xml-v1.0\n'}
+[10.222959] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/icarous\n'}
+[10.243944] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ardupilotmega.xml-v2.0\x1b[0m\n'}
+[10.248194] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[10.248817] (-) TimerEvent: {}
+[10.271177] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/python_array_test\n'}
+[10.300237] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[10.302363] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/test\n'}
+[10.314352] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ualberta\n'}
+[10.330218] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/uAvionix\n'}
+[10.348664] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/storm32\n'}
+[10.349674] (-) TimerEvent: {}
+[10.358000] (mavlink) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating ardupilotmega-v2.0-cxx-stamp\x1b[0m\n'}
+[10.399801] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/AVSSUAS\n'}
+[10.420802] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/cubepilot\n'}
+[10.437946] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/csAirLink\n'}
+[10.449944] (-) TimerEvent: {}
+[10.452993] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[10.456686] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/all\n'}
+[10.459339] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ardupilotmega\n'}
+[10.550186] (-) TimerEvent: {}
+[10.583265] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ASLUAV\n'}
+[10.607985] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[10.640573] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[10.642020] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml.\n'}
+[10.642594] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml\n'}
+[10.650360] (-) TimerEvent: {}
+[10.751248] (-) TimerEvent: {}
+[10.757397] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[10.758092] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[10.851530] (-) TimerEvent: {}
+[10.952608] (-) TimerEvent: {}
+[10.958347] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/development\n'}
+[10.976321] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/icarous\n'}
+[10.980125] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[10.999922] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/python_array_test\n'}
+[11.008336] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[11.009557] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/test\n'}
+[11.012477] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ualberta\n'}
+[11.019218] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/uAvionix\n'}
+[11.026433] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/storm32\n'}
+[11.042271] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/AVSSUAS\n'}
+[11.048767] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/cubepilot\n'}
+[11.052818] (-) TimerEvent: {}
+[11.055169] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/csAirLink\n'}
+[11.060645] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml.\n'}
+[11.061287] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml\n'}
+[11.061926] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[11.082317] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml.\n'}
+[11.083196] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/icarous.xml\n'}
+[11.085768] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml.\n'}
+[11.086446] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml\n'}
+[11.088067] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[11.089165] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[11.090688] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[11.091204] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[11.093156] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[11.093740] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[11.120113] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[11.131642] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[11.134410] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[11.145912] (mavlink) StdoutLine: {'line': b'Found 302 MAVLink message types in 8 XML files\n'}
+[11.151594] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[11.152986] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[11.153457] (-) TimerEvent: {}
+[11.154264] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ardupilotmega\n'}
+[11.156425] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/AVSSUAS\n'}
+[11.177387] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[11.206769] (mavlink) StdoutLine: {'line': b'[ 76%] Built target all.xml-v2.0\n'}
+[11.253774] (-) TimerEvent: {}
+[11.312182] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ASLUAV.xml-v2.0\x1b[0m\n'}
+[11.354081] (-) TimerEvent: {}
+[11.361790] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/uAvionix\n'}
+[11.381037] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/icarous\n'}
+[11.393636] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/cubepilot\n'}
+[11.414844] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/csAirLink\n'}
+[11.430550] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[11.432830] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[11.435402] (mavlink) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating ASLUAV-v2.0-cxx-stamp\x1b[0m\n'}
+[11.449797] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[11.453711] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/storm32\n'}
+[11.454374] (-) TimerEvent: {}
+[11.497109] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[11.504358] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ardupilotmega\n'}
+[11.527585] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[11.528645] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[11.539946] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[11.554675] (-) TimerEvent: {}
+[11.602911] (mavros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[11.626364] (mavlink) StdoutLine: {'line': b'[ 80%] Built target AVSSUAS.xml-v2.0\n'}
+[11.654956] (-) TimerEvent: {}
+[11.658871] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[11.717164] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target csAirLink.xml-v2.0\x1b[0m\n'}
+[11.747570] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[11.748209] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml.\n'}
+[11.748522] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml\n'}
+[11.755190] (-) TimerEvent: {}
+[11.765087] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[11.765896] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[11.819649] (mavlink) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating csAirLink-v2.0-cxx-stamp\x1b[0m\n'}
+[11.855492] (-) TimerEvent: {}
+[11.956483] (-) TimerEvent: {}
+[12.052704] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[12.053665] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml.\n'}
+[12.055174] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml\n'}
+[12.056335] (mavlink) StdoutLine: {'line': b'Found 6 MAVLink message types in 1 XML files\n'}
+[12.056723] (-) TimerEvent: {}
+[12.063339] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[12.064113] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/csAirLink\n'}
+[12.074359] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[12.075068] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[12.076751] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[12.077188] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[12.083028] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[12.088543] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/csAirLink\n'}
+[12.097223] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[12.120685] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/uAvionix\n'}
+[12.130198] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[12.143889] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/icarous\n'}
+[12.148055] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/cubepilot\n'}
+[12.152556] (mavlink) StdoutLine: {'line': b'Found 238 MAVLink message types in 4 XML files\n'}
+[12.157024] (-) TimerEvent: {}
+[12.163524] (mavlink) StdoutLine: {'line': b'[ 83%] Built target csAirLink.xml-v2.0\n'}
+[12.165048] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[12.167285] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/ASLUAV\n'}
+[12.170646] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/csAirLink\n'}
+[12.177059] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[12.178246] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[12.193689] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[12.255391] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target matrixpilot.xml-v1.0\x1b[0m\n'}
+[12.257177] (-) TimerEvent: {}
+[12.295807] (mavlink) StdoutLine: {'line': b'[ 83%] Built target storm32.xml-v2.0\n'}
+[12.337531] (mavlink) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating include/v1.0/matrixpilot/matrixpilot.h\x1b[0m\n'}
+[12.340406] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[12.357536] (-) TimerEvent: {}
+[12.389410] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target AVSSUAS.xml-v1.0\x1b[0m\n'}
+[12.457763] (-) TimerEvent: {}
+[12.489728] (mavlink) StdoutLine: {'line': b'[ 90%] Built target AVSSUAS.xml-v1.0\n'}
+[12.558016] (-) TimerEvent: {}
+[12.565181] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[12.566136] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml.\n'}
+[12.566527] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml\n'}
+[12.590209] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[12.590968] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[12.617003] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target development.xml-v2.0\x1b[0m\n'}
+[12.658286] (-) TimerEvent: {}
+[12.728954] (mavlink) StdoutLine: {'line': b'[ 93%] \x1b[34m\x1b[1mGenerating development-v2.0-cxx-stamp\x1b[0m\n'}
+[12.756844] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/uAvionix\n'}
+[12.758456] (-) TimerEvent: {}
+[12.776970] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/icarous\n'}
+[12.792848] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/cubepilot\n'}
+[12.836895] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/csAirLink\n'}
+[12.858762] (-) TimerEvent: {}
+[12.866299] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[12.867985] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[12.901393] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[12.907970] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[12.908987] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[12.909390] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[12.909805] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[12.917882] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ardupilotmega\n'}
+[12.923778] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[12.929061] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[12.929989] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.\n'}
+[12.930383] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml\n'}
+[12.939745] (mavlink) StdoutLine: {'line': b'Found 169 MAVLink message types in 4 XML files\n'}
+[12.941347] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/matrixpilot\n'}
+[12.948129] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[12.948756] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[12.959004] (-) TimerEvent: {}
+[13.029951] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[13.059314] (-) TimerEvent: {}
+[13.083151] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/common\n'}
+[13.159581] (-) TimerEvent: {}
+[13.260569] (-) TimerEvent: {}
+[13.275244] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[13.276436] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[13.278106] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[13.279247] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[13.305547] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[13.323797] (mavlink) StdoutLine: {'line': b'Found 236 MAVLink message types in 4 XML files\n'}
+[13.343504] (mavlink) StdoutLine: {'line': b'Generating C headers\n'}
+[13.344217] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/development\n'}
+[13.360809] (-) TimerEvent: {}
+[13.418854] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/uAvionix\n'}
+[13.433886] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/icarous\n'}
+[13.437935] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/cubepilot\n'}
+[13.454289] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/csAirLink\n'}
+[13.460183] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[13.461355] (-) TimerEvent: {}
+[13.462581] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[13.468835] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/common\n'}
+[13.492698] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[13.561715] (-) TimerEvent: {}
+[13.662377] (mavlink) StdoutLine: {'line': b'[ 93%] Built target ardupilotmega.xml-v2.0\n'}
+[13.663070] (-) TimerEvent: {}
+[13.705919] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/standard\n'}
+[13.707945] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v2.0/minimal\n'}
+[13.723747] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 2.0 to include/v2.0\n'}
+[13.727570] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/ASLUAV\n'}
+[13.763371] (-) TimerEvent: {}
+[13.765564] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/common\n'}
+[13.777444] (mavlink) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target matrixpilot.xml-v2.0\x1b[0m\n'}
+[13.863652] (-) TimerEvent: {}
+[13.899690] (mavlink) StdoutLine: {'line': b'[ 96%] \x1b[34m\x1b[1mGenerating matrixpilot-v2.0-cxx-stamp\x1b[0m\n'}
+[13.905854] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/standard\n'}
+[13.909695] (mavlink) StdoutLine: {'line': b'Generating C implementation in directory include/v1.0/minimal\n'}
+[13.925057] (mavlink) StdoutLine: {'line': b'Copying fixed headers for protocol 1.0 to include/v1.0\n'}
+[13.946403] (mavros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.963939] (-) TimerEvent: {}
+[14.053646] (mavlink) StdoutLine: {'line': b'[ 96%] Built target matrixpilot.xml-v1.0\n'}
+[14.064161] (-) TimerEvent: {}
+[14.131047] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/standard\n'}
+[14.132695] (mavlink) StdoutLine: {'line': b'Generating C++ implementation in directory include/v2.0/minimal\n'}
+[14.135793] (mavlink) StderrLine: {'line': b'WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed\n'}
+[14.136617] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml.\n'}
+[14.136987] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml\n'}
+[14.142442] (mavlink) StdoutLine: {'line': b'Copying fixed C++ headers for protocol 2.0 to include/v2.0\n'}
+[14.159272] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.\n'}
+[14.160107] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml\n'}
+[14.164412] (-) TimerEvent: {}
+[14.223950] (mavlink) StdoutLine: {'line': b'[ 96%] Built target ASLUAV.xml-v2.0\n'}
+[14.264732] (-) TimerEvent: {}
+[14.366590] (-) TimerEvent: {}
+[14.408562] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml.\n'}
+[14.409243] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/standard.xml\n'}
+[14.409994] (mavlink) StdoutLine: {'line': b'Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml.\n'}
+[14.410326] (mavlink) StdoutLine: {'line': b'Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/minimal.xml\n'}
+[14.427396] (mavlink) StdoutLine: {'line': b'Merged enum MAV_CMD\n'}
+[14.444311] (mavlink) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.446551] (mavlink) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.447508] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>\n'}
+[14.447971] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>\n'}
+[14.448323] (mavlink) StderrLine: {'line': b'    mavgen.mavgen(args, args.definitions)\n'}
+[14.450062] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 297, in mavgen\n'}
+[14.450895] (mavlink) StderrLine: {'line': b'    mavgen.mavgen(args, args.definitions)\n'}
+[14.451230] (mavlink) StderrLine: {'line': b'    mavgen_cpp11.generate(opts.output, xml)\n'}
+[14.451577] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_cpp11.py", line 458, in generate\n'}
+[14.451876] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 243, in mavgen\n'}
+[14.452175] (mavlink) StderrLine: {'line': b'    mavgen_c.generate(basename, xml_list)\n'}
+[14.452446] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 717, in generate\n'}
+[14.463499] (mavlink) StderrLine: {'line': b'    if not expand_includes():\n'}
+[14.464718] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 119, in expand_includes\n'}
+[14.465248] (mavlink) StderrLine: {'line': b'    if mavparse.check_duplicates(xml):\n'}
+[14.466115] (mavlink) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[14.466477] (mavlink) StderrLine: {'line': b'    generate_one(basename, xml)\n'}
+[14.466833] (-) TimerEvent: {}
+[14.467461] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 707, in generate_one\n'}
+[14.467817] (mavlink) StderrLine: {'line': b'    generate_message_h(directory, m)\n'}
+[14.468128] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen_c.py", line 171, in generate_message_h\n'}
+[14.468417] (mavlink) StderrLine: {'line': b"    t.write(f, '''\n"}
+[14.468704] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 133, in write\n'}
+[14.469412] (mavlink) StderrLine: {'line': b'    file.write(self.substitute(text, subvars=subvars, trim_leading_lf=trim_leading_lf))\n'}
+[14.469832] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 95, in substitute\n'}
+[14.470130] (mavlink) StderrLine: {'line': b'    t1 += self.substitute(rest, f, trim_leading_lf=False, checkmissing=False)\n'}
+[14.479650] (mavlink) StderrLine: {'line': b'  File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavtemplate.py", line 128, in substitute\n'}
+[14.480254] (mavlink) StderrLine: {'line': b'    text = text.replace("%s%s%s" % (self.start_var_token, varname, self.end_var_token), str(value))\n'}
+[14.480622] (mavlink) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[14.480920] (mavros_msgs) CommandEnded: {'returncode': -2}
+[14.483036] (mavros_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[14.483905] (mavros_msgs) JobEnded: {'identifier': 'mavros_msgs', 'rc': 'SIGINT'}
+[14.493461] (mavlink) StderrLine: {'line': b'make[2]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:63: matrixpilot-v2.0-cxx-stamp] Interrupt\n'}
+[14.494779] (mavlink) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:930: CMakeFiles/matrixpilot.xml-v2.0.dir/all] Interrupt\n'}
+[14.495309] (mavlink) StderrLine: {'line': b'make[2]: *** [CMakeFiles/development.xml-v2.0.dir/build.make:63: development-v2.0-cxx-stamp] Interrupt\n'}
+[14.495649] (mavlink) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:903: CMakeFiles/development.xml-v2.0.dir/all] Interrupt\n'}
+[14.496333] (mavlink) StderrLine: {'line': b'make: *** [Makefile:118: all] Interrupt\n'}
+[14.501878] (mavlink) JobEnded: {'identifier': 'mavlink', 'rc': 'SIGINT'}
+[14.507861] (libmavconn) JobSkipped: {'identifier': 'libmavconn'}
+[14.508212] (mavros) JobSkipped: {'identifier': 'mavros'}
+[14.508354] (mavros_extras) JobSkipped: {'identifier': 'mavros_extras'}
+[14.508554] (-) EventReactorShutdown: {}

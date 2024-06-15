@@ -1,0 +1,76 @@
+[0.089s] Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lowlevel/mavros2_ws/build/mavlink -- -j4 -l4
+[0.294s] [  3%] Built target csAirLink.xml-v1.0
+[0.302s] [  6%] Built target icarous.xml-v1.0
+[0.311s] [ 10%] Built target ualberta.xml-v2.0
+[0.327s] [ 13%] Built target cubepilot.xml-v2.0
+[0.403s] [ 20%] Built target ualberta.xml-v1.0
+[0.404s] [ 20%] Built target storm32.xml-v1.0
+[0.450s] [ 23%] Built target uAvionix.xml-v1.0
+[0.450s] [ 26%] Built target paparazzi.xml-v2.0
+[0.494s] [ 30%] Built target paparazzi.xml-v1.0
+[0.535s] [ 33%] Built target standard.xml-v1.0
+[0.541s] [ 36%] Built target cubepilot.xml-v1.0
+[0.582s] [ 40%] Built target uAvionix.xml-v2.0
+[0.588s] [ 43%] Built target all.xml-v1.0
+[0.630s] [ 46%] Built target ardupilotmega.xml-v1.0
+[0.659s] [ 50%] Built target all.xml-v2.0
+[0.680s] [ 53%] Built target icarous.xml-v2.0
+[0.725s] [ 56%] Built target storm32.xml-v2.0
+[0.741s] [ 60%] Built target development.xml-v1.0
+[0.752s] [ 63%] Built target ASLUAV.xml-v1.0
+[0.774s] [ 66%] Built target AVSSUAS.xml-v2.0
+[0.839s] [ 70%] Built target common.xml-v1.0
+[0.843s] [ 73%] Built target standard.xml-v2.0
+[0.880s] [ 76%] Built target ASLUAV.xml-v2.0
+[0.882s] [ 80%] Built target ardupilotmega.xml-v2.0
+[0.936s] [ 83%] Built target matrixpilot.xml-v1.0
+[0.974s] [ 86%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
+[0.977s] [ 90%] Built target AVSSUAS.xml-v1.0
+[0.978s] [ 93%] Built target csAirLink.xml-v2.0
+[1.035s] [ 96%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+[1.174s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml.
+[1.175s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.175s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/development.xml
+[1.191s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[1.191s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[1.216s] WARNING: Failed to import lxml module etree. Are lxml, libxml2 and libxslt installed? XML validation will not be performed
+[1.217s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml.
+[1.217s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+[1.234s] Validation skipped for /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml.
+[1.234s] Parsing /home/lowlevel/mavros2_ws/src/mavlink/message_definitions/v1.0/common.xml
+[1.266s] Traceback (most recent call last):
+[1.266s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+[1.268s] Traceback (most recent call last):
+[1.269s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/tools/mavgen.py", line 31, in <module>
+[1.269s]     mavgen.mavgen(args, args.definitions)
+[1.269s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 243, in mavgen
+[1.269s]     mavgen.mavgen(args, args.definitions)
+[1.270s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 243, in mavgen
+[1.270s]     if not expand_includes():
+[1.270s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 116, in expand_includes
+[1.270s]     if not expand_includes():
+[1.271s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 116, in expand_includes
+[1.271s]     if not expand_oneiteration():
+[1.271s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 110, in expand_oneiteration
+[1.271s]     if not expand_oneiteration():
+[1.272s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavgen.py", line 110, in expand_oneiteration
+[1.272s]     xml.append(mavparse.MAVXML(fname, opts.wire_protocol))
+[1.272s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavparse.py", line 334, in __init__
+[1.277s]     xml.append(mavparse.MAVXML(fname, opts.wire_protocol))
+[1.278s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavparse.py", line 334, in __init__
+[1.279s]     p.ParseFile(f)
+[1.280s]   File "../Modules/pyexpat.c", line 459, in EndElement
+[1.284s]     p.ParseFile(f)
+[1.286s]   File "../Modules/pyexpat.c", line 407, in StartElement
+[1.287s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavparse.py", line 308, in end_element
+[1.287s]     def end_element(name):
+[1.288s]   File "/home/lowlevel/mavros2_ws/src/mavlink/pymavlink/generator/mavparse.py", line 271, in start_element
+[1.288s]     value = eval(attrs['value'])
+[1.288s]   File "<string>", line 1, in <module>
+[1.289s] KeyboardInterrupt
+[1.289s] KeyboardInterrupt
+[1.301s] make[2]: *** [CMakeFiles/matrixpilot.xml-v2.0.dir/build.make:63: matrixpilot-v2.0-cxx-stamp] Interrupt
+[1.301s] make[1]: *** [CMakeFiles/Makefile2:930: CMakeFiles/matrixpilot.xml-v2.0.dir/all] Interrupt
+[1.304s] make[2]: *** [CMakeFiles/development.xml-v2.0.dir/build.make:63: development-v2.0-cxx-stamp] Interrupt
+[1.305s] make[1]: *** [CMakeFiles/Makefile2:903: CMakeFiles/development.xml-v2.0.dir/all] Interrupt
+[1.306s] make: *** [Makefile:118: all] Interrupt

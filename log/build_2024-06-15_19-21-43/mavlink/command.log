@@ -1,0 +1,3 @@
+Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavlink
+Invoked command in '/home/lowlevel/mavros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavlink
+Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lowlevel/mavros2_ws/build/mavlink -- -j4 -l4

@@ -19,7 +19,7 @@
 #include <angles/angles.h>
 
 #include <string>
-#include <tf2_eigen/tf2_eigen.hpp>
+#include <tf2_eigen/tf2_eigen.h>
 #include <GeographicLib/Geocentric.hpp>     // NOLINT
 
 #include "rcpputils/asserts.hpp"

@@ -1,0 +1,1 @@
+Invoking command in '/home/lowlevel/mavros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lowlevel/mavros2_ws/build/mavlink -- -j4 -l4

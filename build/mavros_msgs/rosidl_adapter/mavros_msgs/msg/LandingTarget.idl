@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mavros_msgs/msg/LandingTarget.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mavros_msgs {
+  module msg {
+    typedef float float__2[2];
+    module LandingTarget_Constants {
+      const uint8 GLOBAL = 0;
+      const uint8 LOCAL_NED = 2;
+      const uint8 MISSION = 3;
+      const uint8 GLOBAL_RELATIVE_ALT = 4;
+      const uint8 LOCAL_ENU = 5;
+      const uint8 GLOBAL_INT = 6;
+      const uint8 GLOBAL_RELATIVE_ALT_INT = 7;
+      const uint8 LOCAL_OFFSET_NED = 8;
+      const uint8 BODY_NED = 9;
+      const uint8 BODY_OFFSET_NED = 10;
+      const uint8 GLOBAL_TERRAIN_ALT = 11;
+      const uint8 GLOBAL_TERRAIN_ALT_INT = 12;
+      const uint8 LIGHT_BEACON = 0;
+      const uint8 RADIO_BEACON = 1;
+      const uint8 VISION_FIDUCIAL = 2;
+      const uint8 VISION_OTHER = 3;
+    };
+    @verbatim (language="comment", text=
+      " MAVLink message: LANDING_TARGET" "\n"
+      " https://mavlink.io/en/messages/common.html")
+    struct LandingTarget {
+      std_msgs::msg::Header header;
+
+      uint8 target_num;
+
+      uint8 frame;
+
+      float__2 angle;
+
+      float distance;
+
+      float__2 size;
+
+      geometry_msgs::msg::Pose pose;
+
+      uint8 type;
+    };
+  };
+};

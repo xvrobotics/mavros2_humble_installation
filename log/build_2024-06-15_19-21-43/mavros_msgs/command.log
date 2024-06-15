@@ -1,0 +1,2 @@
+Invoking command in '/home/lowlevel/mavros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavros_msgs
+Invoked command in '/home/lowlevel/mavros2_ws/build/mavros_msgs' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lowlevel/mavros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/lowlevel/mavros2_ws/install/mavros_msgs

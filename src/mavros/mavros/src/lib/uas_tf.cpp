@@ -16,7 +16,7 @@
 #include <vector>
 
 #include "mavros/mavros_uas.hpp"
-#include "tf2_eigen/tf2_eigen.hpp"
+#include "tf2_eigen/tf2_eigen.h"
 
 using namespace mavros::uas;  // NOLINT
 
