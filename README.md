@@ -29,7 +29,7 @@ chmod +x mavros2_install.sh
 ### Step 3: Run the Installation Script
 Source ROS2 <Distro>
 ```
-source /opt/ros/<distro>/setup.bash
+sudo source /opt/ros/<distro>/setup.bash
 ```
 Run the script to install MAVROS:
 ```
