@@ -1,1 +1,0 @@
-/usr/bin/cc     -v CMakeFiles/cmTC_de6f4.dir/CMakeCCompilerABI.c.o  -o cmTC_de6f4 
